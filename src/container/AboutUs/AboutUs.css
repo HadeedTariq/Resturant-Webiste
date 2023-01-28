@@ -1,0 +1,80 @@
+#about{
+    position: relative;
+    width: 100%;
+    margin: 100px 0px;
+}
+.g-letter{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+#g-image{
+    width: 300px;
+    color: rgba(199, 192, 192, 0);
+    z-index: -1;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+}
+.about-page{
+    z-index: 3;
+    width: 30%;
+}
+.about-page .about-heading h1{
+    color: rgb(238, 199, 98);
+    font-weight: 300;
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-heading{
+    position: relative;
+    margin: 8px 0px;
+}
+.about-heading{
+    display: flex;
+    flex-direction: column;
+}
+.about-heading img{
+    width: 70px;
+}
+.about-page p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 18px;
+}
+.about-page button{
+    padding: 3px 8px;
+    background-color: rgb(255, 219, 128);
+    color: black;
+    font-size: 19px;
+    cursor:pointer;
+}
+.knife-img{
+    z-index: 3;
+}
+.knife-img img{
+    height: 500px;
+    z-index: 3;
+}
+@media screen and (max-width:692px) {
+    .about-page{
+        width: 100%;
+        margin: 20px;
+    }
+    #g-image{
+        width: 80%;
+        height: 80%;
+        left: 10px;
+    }
+    .g-letter{
+        left: 10%;
+    }
+}

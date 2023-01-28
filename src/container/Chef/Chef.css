@@ -1,0 +1,61 @@
+#chef{
+    width: 100%;
+    margin: 100px 0px;
+}
+.chef-content{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.chef-content img{
+    width: 400px;
+    margin: 0px 45px;
+}
+#sign{
+    width: 200px;
+}
+.chef-text{
+    margin: 0px 20px;
+    margin-top: 10px;
+}
+.chef-content .chef-text h4{
+    font-weight: 200;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px 0px;
+}
+.chef-text h1{
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(255, 229, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chef-text p{
+    margin: 30px 0px;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.chef-text h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(242, 207, 120);
+    margin-bottom: 35px;
+}
+@media screen and (max-width:941px) {
+    .chef-content{
+        flex-wrap: wrap-reverse;
+    }
+    .chef-text{
+        width: 100%;
+        margin: 20px;
+    }
+    .chef-content img{
+        width: 80%;
+        margin: 0 30px;
+    }
+    .chef-text p{
+        width: 100%;
+    }
+}

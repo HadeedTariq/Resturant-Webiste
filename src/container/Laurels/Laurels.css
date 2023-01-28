@@ -1,0 +1,65 @@
+#award{
+    width: 100%;
+    padding: 20px;
+    margin: 100px 0px;
+}
+#award .logo{
+    width: 100px;
+}
+.award-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.award-content .laurels{
+    width: 400px;
+    border-radius: 5px;
+}
+.award-text{
+    margin-top: 20px;
+    width: 40%;
+}
+.fetched-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.fetched-rewards{
+    margin: 20px 0px;
+    margin-right: 0;
+    margin-left: 20px;
+}
+.rewards{
+    display: flex;
+}
+.rewards img{
+    width: 60px;
+    margin: 0 10px;
+}
+@media screen and (max-width:899px) {
+    .award-text{
+        width: 100%;
+    }
+}
+@media screen and (max-width:453px) {
+    .award-content .laurels{
+        width: 320px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .fetched-rewards{
+        margin-left: 0;
+    }
+    .rewards img{
+        width: 45px;
+        height: 45px;
+    }
+    .fetched-content{
+        padding: 0px;
+    }
+    .award-text h1{
+        font-size: 24px;
+    }
+}

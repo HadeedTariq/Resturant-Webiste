@@ -1,0 +1,48 @@
+#find-us{
+    width: 100%;
+    padding: 8px 50px;
+}
+.find-us-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.find-us-content .find-us-img img{
+    width: 400px;
+    border-radius: 5px;
+}
+.find-us-text{
+    margin-top: 30px;
+}
+.find-us-text h5{
+    font-size: 18px;
+    padding: 10px 0px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.find-us-text h3{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0px;
+}
+.find-us-text h1{
+    padding: 10px 0px;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(250, 216, 130);
+}
+.find-us-text p{
+    padding: 10px 0px;
+    color: rgb(255, 238, 142);
+}
+.find-us-text button{
+    padding: 5px 8px;
+    margin: 10px 0px;
+    font-size: 20px;
+    background-color: rgb(240, 201, 104);
+    cursor: pointer;
+    border-radius: 6px;
+}

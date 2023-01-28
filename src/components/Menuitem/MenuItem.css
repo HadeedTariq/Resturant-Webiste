@@ -1,0 +1,22 @@
+.fetched-data{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    padding: 8px 0px;
+}
+.item{
+    margin: 50px 0px;
+}
+.fetched-data p{
+    font-size: 18px;
+    padding: 0 35px;
+    color: rgb(239, 217, 159);
+}
+.fetched-data .tail{
+    background-color: white;
+    width: 50px;
+    height: 2px;
+}
+.tag p{
+    text-align: center;
+}
